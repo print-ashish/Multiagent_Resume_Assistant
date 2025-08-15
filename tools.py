@@ -1,9 +1,12 @@
 import PyPDF2
+from pathlib import Path
+
 
 def read_pdf() -> str:
     """Reads text from a PDF file and returns it as a string."""
     text = ""
-    file_path ="resumes\\resume.pdf"
+    # file_path ="resumes\\resume.pdf"
+    file_path = Path("resumes") / "resume.pdf"
     try:
         with open(file_path, "rb") as file:
             reader = PyPDF2.PdfReader(file)

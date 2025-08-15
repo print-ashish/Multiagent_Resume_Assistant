@@ -73,7 +73,7 @@ class ResumeAnalysisMutiagent:
 
         # Supervisor setup
         self.supervisor = create_supervisor(
-            model=ChatGoogleGenerativeAI(model="gemini-2.5-flash"),
+            model=ChatGoogleGenerativeAI(model="gemini-2.5-pro"),
             agents=[self.resume_reader_agent, self.analysis_agent , self.chat_agent],
             prompt=(
                 """
