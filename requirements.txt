@@ -6,3 +6,4 @@ langchain
 python-dotenv
 langgraph-checkpoint-sqlite
 langgraph-supervisor
+pypdf2
