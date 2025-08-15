@@ -5,3 +5,4 @@ langchain-google-genai
 langchain
 python-dotenv
 langgraph-checkpoint-sqlite
+langgraph-supervisor
